@@ -1,6 +1,6 @@
 // import {KTSVG} from '../../../_metronic/helpers'
 import React from "react";
-import { /* MetroButton, */ MetroCard } from "../Component";
+import { MetroCard } from "../Component";
 
 const ExampleCard = () => {
   return (

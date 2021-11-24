@@ -1,4 +1,4 @@
-import React, { ReactNode } from "react";
+import React from "react";
 
 interface Props {
   name: string;
@@ -8,6 +8,7 @@ interface Props {
 
 export const homePage = (props: Props) => {
   const { age, name, children } = props;
+
   return (
     <div>
       <h1>Nama Saya {name}</h1>

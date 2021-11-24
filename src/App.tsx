@@ -1,5 +1,4 @@
 import React from "react";
-import "./App.css";
 import Index from "./routes";
 interface Props {
   name?: string;
