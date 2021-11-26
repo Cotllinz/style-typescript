@@ -5,8 +5,12 @@ module.exports = {
   theme: {
     extend: {},
     colors: {
+      ...colors,
       transparent: "transparent",
       current: "currentColor",
+    },
+    fontFamily: {
+      fontPoppins: "Poppins, sans-serif",
     },
   },
   variants: {

@@ -1,15 +1,19 @@
 import React from "react";
 import { Routes as Switch, Route } from "react-router-dom";
-import { homePage as HomePage } from "../Pages/homePage";
-interface Props {}
 
-const index = (props: Props) => {
+import { HomePage } from "../Pages/homePage";
+import { DetailPage } from "../Pages/detailPage";
+
+interface PropsRouter {}
+
+const index = (props: PropsRouter) => {
   return (
     <Switch>
       <Route
         path="/"
         element={<HomePage name={"Rudy Galih"}></HomePage>}
       ></Route>
+      <Route path="/detail" element={<DetailPage />}></Route>
     </Switch>
   );
 };
